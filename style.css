@@ -1,5 +1,7 @@
-@include govuk-responsive-padding(6);
-
+.class_name_of_your_element {
+padding-top: 10px;
+padding-bottom: 10px;
+}
 body {
 	font-family: sans-serif;
 	text-align: center;
