@@ -40,7 +40,7 @@
     <main class="govuk-main-wrapper " id="main-content" role="main">
       <h1>Apprenticeship Employer Chat</h1>
 <p>Type a question to learn more about how hiring an apprentice can help your company.</p>
-<button><iframe src='https://apprenticedemo.cognitiveservices.azure.com/language/:query-knowledgebases?projectName=FAQApp&api-version=2021-10-01&deploymentName=production'  style='min-width: 400px; width: 100%; min-height: 500px;'></iframe></button>
+<button><iframe src='curl -X POST "https://apprenticedemo.cognitiveservices.azure.com/language/:query-knowledgebases?projectName=FAQApp&api-version=2021-10-01&deploymentName=production" -H "Ocp-Apim-Subscription-Key: 686147adf08a417bb7c5ee8ae9bfe440" -H "Content-Type: application/json" -d "{\"top\":3,\"question\":\"YOUR_QUESTION_HERE\",\"includeUnstructuredSources\":true,\"confidenceScoreThreshold\":\"YOUR_SCORE_THRESHOLD_HERE\",\"answerSpanRequest\":{\"enable\":true,\"topAnswersWithSpan\":1,\"confidenceScoreThreshold\":\"YOUR_SCORE_THRESHOLD_HERE\"},\"filters\":{\"metadataFilter\":{\"logicalOperation\":\"YOUR_LOGICAL_OPERATION_HERE\",\"metadata\":[{\"key\":\"YOUR_ADDITIONAL_PROP_KEY_HERE\",\"value\":\"YOUR_ADDITIONAL_PROP_VALUE_HERE\"}]}}}"'  style='min-width: 400px; width: 100%; min-height: 500px;'></iframe></button>
 
     </main>
   </div>
