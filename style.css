@@ -1,10 +1,14 @@
-.header {
-	padding-top: 0.1px;
-	padding-bottom: 0.1px;
-	font-family: Arial;
-	font: Arial;
-	}
-	body {
+<style>
+
+	.header {
+		background-color: black;
+		height: 50px;
+		padding-top: 0.1px;
+		padding-bottom: 0.1px;
+		font-family: Arial;
+		font: Arial;
+		}
+		body {
 		font-family: Arial;
 		font: Arial;
 		text-align: left;
@@ -36,10 +40,10 @@
 		color: white;
 	}
 
-  <style>
 	.content {
 	  max-width: 10px;
 	  margin: 10px;
 	
 	}
 	
+  </style>
