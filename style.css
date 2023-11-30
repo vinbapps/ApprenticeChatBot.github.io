@@ -41,11 +41,16 @@
 		background-color: grey;
 		color: white;
 	}
-
+	.container {
+  	position: relative;
+	}
 	 .content {
-        position: fixed;
+        position: absolute;
+	top: 50%;
+  	width: 100%;
+  	text-align: center;
+  	font-size: 18px;
         height: 500px; 
-        width: 400px; 
         bottom: 40px;
         right: 40px;
         overflow: hidden;
