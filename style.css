@@ -40,10 +40,17 @@
 		color: white;
 	}
 
-	.content {
-	  max-width: 10px;
-	  margin: 10px;
-	
-	}
+	 .content {
+        position: fixed;
+        height: 500px; 
+        width: 400px; 
+        bottom: 40px;
+        right: 40px;
+        overflow: hidden;
+        border: 0.5rem outset black;
+        outline: 0.1rem solid red;
+        box-shadow: 0 0 0 0.5rem grey;
+        border-radius: 12px;
+	 }
 	
   </style>
