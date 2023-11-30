@@ -35,33 +35,11 @@
 		background-color: grey;
 		color: white;
 	}
-	<style>
-     
-      .heading {
-        background-color: black;
-        height: 50px;
-      }
-      .main {
-        margin: 18px;
-        border-radius: 4px;
-      }
 
-      p, .p, .page_section p, .section-diagonal-left p, .section-diagonal-right p{
-          font-size: 15px !important;
-      }
-
-      #webchat {
-        position: fixed;
-        height: 500px; 
-        width: 400px; 
-        bottom: 40px;
-        right: 40px;
-        overflow: hidden;
-        border: 0.5rem outset black;
-        outline: 0.1rem solid red;
-        box-shadow: 0 0 0 0.5rem grey;
-        border-radius: 12px;
-      }
-    </style>
+  <style>
+	.content {
+	  max-width: 10px;
+	  margin: 10px;
+	
 	}
 	
