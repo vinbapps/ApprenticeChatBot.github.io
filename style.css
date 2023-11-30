@@ -20,6 +20,8 @@
 	}
 	
 	h1 {
+		font-family: Arial;
+		font: Arial;
 		font-size: 2rem;
 		font-weight: bolder;
 		margin-bottom: 1rem;
